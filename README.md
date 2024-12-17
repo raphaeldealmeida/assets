@@ -18,7 +18,6 @@ This project uses the Gemini API to detect objects in an image and draw bounding
     ```env
     GEMINI_API_KEY="YOUR_API_KEY"
     GEMINI_MODEL_NAME="gemini-1.5-pro-latest"
-    GEMINI_PROMPT="Detect up to 5 furnitures in the image. Provide the bounding box coordinates. The answer should follow the json format: [{\\"box_2d\\": {\\"xmax\\": <xmax>, \\"ymax\\": <ymax>,\\"xmin\\": <xmin>,\\"ymin\\": <ymin>}, \\"label\\": <label> }, ...]. Considere 0-1000 scale."
     ```
 
 ## Running the project
